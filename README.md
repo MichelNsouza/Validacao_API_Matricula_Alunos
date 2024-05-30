@@ -50,5 +50,5 @@ Na aplicação Cypress que abriu escolha:
 * Escolha o navegador de preferencia e click em "Start E2E Testing in 'SeuNavegador'"
 * Na área de Specs escolha o Story que deseja executar.
 
-Siga essas instruções para configurar e executar seu projeto Cypress com sucesso. :)
+Siga essas instruções para configurar e executar o projeto com sucesso. :)
 
