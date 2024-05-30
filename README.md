@@ -34,16 +34,21 @@ Use o comando abaixo para executar os testes no terminal sem abrir a interface g
 npx cypress run --headless
 ```
 
-### Exemplo de Comando
-No diretório do projeto, você executaria os seguintes comandos:
-
-Com Interface Gráfica
-```bash
-npx cypress run
-```
-Sem Interface Gráfica
+### Executando os testes
+No diretório do projeto, você executaria os seguintes comandos no terminal:
+Sem Interface Gráfica:
 ```bash
 npx cypress run --headless
 ```
+
+Com Interface Gráfica
+```bash
+npx cypress open
+```
+Na aplicação Cypress que abriu escolha:
+A opção E2E Testing
+Escolha o navegador de preferencia e click em "Start E2E Testing in 'SeuNavegador'"
+Na área de Specs escolha o Story que deseja executar.
+
 Siga essas instruções para configurar e executar seu projeto Cypress com sucesso. :)
 
