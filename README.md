@@ -45,10 +45,10 @@ Com Interface Gráfica
 ```bash
 npx cypress open
 ```
-Na aplicação Cypress que abriu escolha:
-A opção E2E Testing
-Escolha o navegador de preferencia e click em "Start E2E Testing in 'SeuNavegador'"
-Na área de Specs escolha o Story que deseja executar.
+* Na aplicação Cypress que abriu escolha:
+* A opção E2E Testing
+* Escolha o navegador de preferencia e click em "Start E2E Testing in 'SeuNavegador'"
+* Na área de Specs escolha o Story que deseja executar.
 
 Siga essas instruções para configurar e executar seu projeto Cypress com sucesso. :)
 
