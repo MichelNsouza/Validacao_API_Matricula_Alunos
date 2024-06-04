@@ -1,7 +1,7 @@
 # Validação API de consulta de dados da matrícula de alunos
 
 ## Descrição
-Este é um projeto de testes automatizados utilizando Cypress, proposto como avaliação final da disciplina de Gerenciamento e Qualidade de Software, ministrada pelo Professor Paulo Reis no curso de Bacharelado em Sistemas de Informação (BSI) da UNIME.
+Este é um projeto de testes automatizados utilizando Cypress, proposto como avaliação final da disciplina de Gerenciamento e Qualidade de Software 5º Semestre 2024.01, ministrada pelo Professor Paulo Reis no curso de Bacharelado em Sistemas de Informação (BSI) da UNIME.
 
 ## API Testada
  - [Repositorio](https://github.com/PHPauloReis/oficial2-matriculas-api/) da API de matriculas testada.
@@ -14,10 +14,9 @@ Este é um projeto de testes automatizados utilizando Cypress, proposto como ava
 - [Postman](https://www.postman.com/downloads/)
 - [VScode](https://code.visualstudio.com/download)
 
-
 ## Passos para Executar
 
-## Pré-requisitos
+### Pré-requisitos
 Certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo em [Node.js Download](https://nodejs.org/en/download/package-manager).
 
 ### 1. Navegar para o Diretório do Projeto
