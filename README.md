@@ -4,8 +4,8 @@
 Este é um projeto de testes automatizados utilizando Cypress, proposto como avaliação final da disciplina de Gerenciamento e Qualidade de Software, ministrada pelo Professor Paulo Reis no curso de Bacharelado em Sistemas de Informação (BSI) da UNIME.
 
 ## API Testada
- [Repositorio](https://github.com/PHPauloReis/oficial2-matriculas-api/) da API de matriculas testada
- [tasks](https://github.com/MichelNsouza/Validacao_API_Matricula_Alunos/blob/main/tasks/Avalia%C3%A7%C3%A3o%20Oficial%202%20-%20Gerenciamento%20e%20Qualidade%20%202c1a8cb42e3042c89d47288a68b2ac8b.md) testadas.
+ - [Repositorio](https://github.com/PHPauloReis/oficial2-matriculas-api/) da API de matriculas testada.
+ - [tasks](https://github.com/MichelNsouza/Validacao_API_Matricula_Alunos/blob/main/tasks/Avalia%C3%A7%C3%A3o%20Oficial%202%20-%20Gerenciamento%20e%20Qualidade%20%202c1a8cb42e3042c89d47288a68b2ac8b.md) testadas.
 
 ## Tecnologias e software's Utilizados
 - [Cypress](https://www.cypress.io/)
