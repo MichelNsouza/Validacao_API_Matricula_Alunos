@@ -1,4 +1,4 @@
-# Validação a API de consulta de dados da matrícula de alunos
+# Validação API de consulta de dados da matrícula de alunos
 
 ## Descrição
 Este é um projeto de testes automatizados utilizando Cypress, proposto como avaliação final da disciplina de Gerenciamento e Qualidade de Software, ministrada pelo Professor Paulo Reis no curso de Bacharelado em Sistemas de Informação (BSI) da UNIME.
