@@ -14,7 +14,7 @@ Este é um projeto de testes automatizados utilizando Cypress, proposto como ava
 - [Postman](https://www.postman.com/downloads/)
 - [VScode](https://code.visualstudio.com/download)
 
-## Passos para Executar
+## Passos para Executar os Testes
 
 ### Pré-requisitos
 Certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo em [Node.js Download](https://nodejs.org/en/download/package-manager).
