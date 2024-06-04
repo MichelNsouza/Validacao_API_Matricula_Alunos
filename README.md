@@ -3,14 +3,21 @@
 ## Descrição
 Este é um projeto de testes automatizados utilizando Cypress, proposto como avaliação final da disciplina de Gerenciamento e Qualidade de Software, ministrada pelo Professor Paulo Reis no curso de Bacharelado em Sistemas de Informação (BSI) da UNIME.
 
-## Tecnologias Utilizadas
+## API Testada
+ click [aqui](https://github.com/PHPauloReis/oficial2-matriculas-api/) para ir ate o repositorio da API de matriculas testada e [aqui]() para ver as tasks testadas.
+
+## Tecnologias e software's Utilizados
 - [Cypress](https://www.cypress.io/)
 - [Node.js](https://nodejs.org/)
+- [Intelij Idea Community](https://www.jetbrains.com/idea/download/)
+- [Postman](https://www.postman.com/downloads/)
+- [VScode](https://code.visualstudio.com/download)
+
+
+## Passos para Executar
 
 ## Pré-requisitos
 Certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo em [Node.js Download](https://nodejs.org/en/download/package-manager).
-
-## Passos para Executar
 
 ### 1. Navegar para o Diretório do Projeto
 Abra o terminal e navegue para o diretório onde você baixou/clonou o projeto.
