@@ -257,6 +257,6 @@ Matrícula inexistente:
 
 Formato do Report de Bugs
 
-[Avaliac%CC%A7a%CC%83o%20Oficial%202%20-%20Gerenciamento%20e%20Qualidade%20%202c1a8cb42e3042c89d47288a68b2ac8b/Untitled.png](https://github.com/MichelNsouza/Validacao_API_Matricula_Alunos/blob/main/tasks/Avalia%C3%A7%C3%A3o%20Oficial%202%20-%20Gerenciamento%20e%20Qualidade%20%202c1a8cb42e3042c89d47288a68b2ac8b/Untitled.png)
+![Avaliac%CC%A7a%CC%83o%20Oficial%202%20-%20Gerenciamento%20e%20Qualidade%20%202c1a8cb42e3042c89d47288a68b2ac8b/Untitled.png](https://github.com/MichelNsouza/Validacao_API_Matricula_Alunos/blob/main/tasks/Avalia%C3%A7%C3%A3o%20Oficial%202%20-%20Gerenciamento%20e%20Qualidade%20%202c1a8cb42e3042c89d47288a68b2ac8b/Untitled.png)
 
 # Exportado do Notion de [Paulo Reis](https://github.com/PHPauloReis)
