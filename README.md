@@ -21,6 +21,7 @@ Certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo e
 
 ### 1. Navegar para o Diretório do Projeto
 Abra o terminal e navegue para o diretório onde você baixou/clonou o projeto.
+Ou abra o projeto diretamente na sua IDE de preferencia e abra o terminal integrado
 
 ### 2. Instalar Dependências
 Execute o comando abaixo para instalar as dependências do projeto:
