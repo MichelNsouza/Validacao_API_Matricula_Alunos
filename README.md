@@ -30,20 +30,17 @@ npm install
 ```
 
 ### 3. Executar os Testes
-#### Com Interface Gráfica
-Use o comando abaixo para abrir a interface do Cypress e executar os testes:
-```bash
-npx cypress open
-```
-
 #### Sem Interface Gráfica
 Use o comando abaixo para executar os testes no terminal sem abrir a interface gráfica:
 ```bash
 npx cypress run --headless
 ```
 
-
-
+#### Com Interface Gráfica
+Use o comando abaixo para abrir a interface do Cypress e executar os testes:
+```bash
+npx cypress open
+```
 
 Na aplicação Cypress que abriu escolha:
 * A opção E2E Testing
