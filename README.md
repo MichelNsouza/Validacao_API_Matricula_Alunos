@@ -42,12 +42,7 @@ Use o comando abaixo para executar os testes no terminal sem abrir a interface g
 npx cypress run --headless
 ```
 
-### Executando os testes
-No diretório do projeto, você executaria os seguintes comandos no terminal:
-Sem Interface Gráfica:
-```bash
-npx cypress run --headless
-```
+
 
 
 Na aplicação Cypress que abriu escolha:
