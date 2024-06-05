@@ -1,13 +1,20 @@
 describe("Consultar dados de matrícula regular", () => {
-  it("deve retornar propriedades da matrícula ao informar um número válido", () => {
+  const matricula = 4653421; 
+  const apiKey = "unime-qualidade-oficial2"; 
 
+  beforeEach(() => {
     cy.request({
       method: "GET",
-      url: "http://localhost:8080/v1/matriculas/4653421",
+      url: `http://localhost:8080/v1/matriculas/${matricula}`,
       headers: {
-        "X-API-KEY": "unime-qualidade-oficial2", 
+        "X-API-KEY": apiKey,
       },
-    }).then((response) => {
+    }).as("matriculaRequest"); 
+  });
+  it("deve retornar propriedades da matrícula ao informar um número válido", () => {
+    
+
+    cy.get("@matriculaRequest").then((response) => {
       const dadosMatricula = response.body;
       expect(response.body).to.have.property("tuition");
       expect(response.body).to.have.property("student");
@@ -15,13 +22,7 @@ describe("Consultar dados de matrícula regular", () => {
   });
   it("deve retornar dados da matrícula ao informar um número válido", () => {
 
-    cy.request({
-      method: "GET",
-      url: "http://localhost:8080/v1/matriculas/4653421",
-      headers: {
-        "X-API-KEY": "unime-qualidade-oficial2", 
-      },
-    }).then((response) => { 
+    cy.get("@matriculaRequest").then((response) => { 
       const dadosMatricula = response.body;
 
       expect(response.body.id).to.not.be.empty;
@@ -39,13 +40,7 @@ describe("Consultar dados de matrícula regular", () => {
   });
   it("deve retornar code status 200", () => {
 
-    cy.request({
-      method: "GET",
-      url: "http://localhost:8080/v1/matriculas/4653421",
-      headers: {
-        "X-API-KEY": "unime-qualidade-oficial2", 
-      },
-    }).then((response) => {
+    cy.get("@matriculaRequest").then((response) => {
 
       expect(response.status).to.equal(200); 
 

@@ -1,13 +1,20 @@
 describe("Consultar dados de matrícula com todas as mensalidades quitadas", () => {
-  it("deve retornar propriedades da matrícula ao informar um número válido de matrícula com todas as mensalidades quitadas", () => {
+  const matricula = 1122334; 
+  const apiKey = "unime-qualidade-oficial2"; 
 
+  beforeEach(() => {
     cy.request({
       method: "GET",
-      url: "http://localhost:8080/v1/matriculas/1122334",
+      url: `http://localhost:8080/v1/matriculas/${matricula}`,
       headers: {
-        "X-API-KEY": "unime-qualidade-oficial2", 
+        "X-API-KEY": apiKey,
       },
-    }).then((response) => {
+    }).as("matriculaRequest"); 
+  });
+
+  it("deve retornar propriedades da matrícula ao informar um número válido de matrícula com todas as mensalidades quitadas", () => {
+
+    cy.get("@matriculaRequest").then((response) => {
       const dadosMatricula = response.body;
       expect(response.body).to.have.property("tuition");
       expect(response.body).to.have.property("student");
@@ -15,26 +22,14 @@ describe("Consultar dados de matrícula com todas as mensalidades quitadas", () 
   });
   it("não deve ser retornada a data de vencimento da mensalidade", () => {
 
-      cy.request({
-        method: "GET",
-        url: "http://localhost:8080/v1/matriculas/1122334",
-        headers: {
-          "X-API-KEY": "unime-qualidade-oficial2", 
-        },
-      }).then((response) => { 
+    cy.get("@matriculaRequest").then((response) => {
         const dadosMatricula = response.body;
         expect(response.body.tuition.status).to.not.equal("BOLSISTA_50");
       });
     });
   it("deve retornar dados da matrícula ao informar um número válido", () => {
 
-    cy.request({
-      method: "GET",
-      url: "http://localhost:8080/v1/matriculas/1122334",
-      headers: {
-        "X-API-KEY": "unime-qualidade-oficial2", 
-      },
-    }).then((response) => { 
+    cy.get("@matriculaRequest").then((response) => {
       const dadosMatricula = response.body;
 
       expect(response.body.id).to.not.be.empty;
@@ -51,13 +46,7 @@ describe("Consultar dados de matrícula com todas as mensalidades quitadas", () 
   });
   it("deve retornar code status 200", () => {
 
-    cy.request({
-      method: "GET",
-      url: "http://localhost:8080/v1/matriculas/1122334",
-      headers: {
-        "X-API-KEY": "unime-qualidade-oficial2", 
-      },
-    }).then((response) => {
+    cy.get("@matriculaRequest").then((response) => {
 
       expect(response.status).to.equal(200); 
 
